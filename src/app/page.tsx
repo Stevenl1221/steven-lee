@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between p-24">
       <div className="ml10 mb-4 flex align-baseline">
-        <p className="">I'm Steven Lee, a&nbsp;</p>
+        <p className="">I'm Steven Lee, a{" "}</p>
         <span className="text-wrapper">
           <span className="letters font-bold">Full Stack Engineer.</span>
         </span>
