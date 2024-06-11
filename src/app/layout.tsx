@@ -24,7 +24,7 @@ export default function Layout({
     <html
       lang="en"
       className={cx(
-        "bg-zinc-950 text-slate-100 antialiased",
+        "bg-zinc-950 text-slate-100",
         GeistSans.variable,
         GeistMono.variable
       )}

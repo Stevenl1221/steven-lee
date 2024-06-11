@@ -1,35 +1,32 @@
 "use client";
-import { useEffect } from "react";
-import Image from "next/image";
-import { Navbar } from "./components/nav";
-import anime from "animejs";
+import Anime, { anime } from "react-anime";
+type LetterProps = {
+  children: string;
+};
 
 export default function Home() {
-  useEffect(() => {
-    const textWrapper = document.querySelector(".ml10 .letters");
-    if (textWrapper) {
-      textWrapper.innerHTML = textWrapper.textContent!.replace(
-        /\S/g,
-        "<span class='letter'>$&</span>"
-      );
+  const Letter: React.FC<LetterProps> = ({ children }) => {
+    return <span className="letter">{children === " " ? " " : children}</span>;
+  };
 
-      anime.timeline({ loop: false }).add(
-        {
-          targets: ".ml10 .letter",
-          rotateY: [-90, 0],
-          duration: 1300,
-          delay: (el, i) => 45 * i,
-        },
-        850
-      );
-    }
-  }, []);
+  const createSpannedString = (text: string): React.ReactElement[] => {
+    return text
+      .split("")
+      .map((char) => <Letter key={char}>{char === " " ? " " : char}</Letter>);
+  };
   return (
     <main className="flex flex-col items-center justify-between p-24">
-      <div className="ml10 mb-4 flex align-baseline whitespace-nowrap text-3xl">
+      <div className="ml10 mb-4 flex align-baseline whitespace-nowrap lg:text-3xl">
         <p className="">I&#39;m Steven Lee</p>
         <span className="text-wrapper">
-          <span className="letters font-bold">, a Full Stack Engineer.</span>
+          <span className="letters font-bold flex flex-row">
+            <Anime
+              rotateY={[-90, 0]}
+              delay={(el: any, i: any) => 1000 + 45 * i}
+            >
+              {createSpannedString(", a Software Engineer.")}
+            </Anime>
+          </span>
         </span>
       </div>
       <div className="my-8"></div>
