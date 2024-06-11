@@ -1,0 +1,47 @@
+[
+  {
+    "id": 5,
+    "timeline": "May 2024 — Present",
+    "title": "Software Engineer Intern",
+    "company": "Lockheed Martin Space",
+    "team": "Jupiter",
+    "description": "Incoming intern doing vulnerability testing and robustness testing on the Jupiter Program",
+    "logo": "/logo/lm-logo.jpeg"
+  },
+  {
+    "id": 4,
+    "timeline": "Summer 2023",
+    "title": "Software Engineer Intern",
+    "company": "Lockheed Martin Space",
+    "team": "Global Broadcasting Service (GBS)",
+    "description": "Developed and deployed Satellite Broadcast Manager (SBM), Receive Broadcast Manager (RBM), and Global Broadcast Service framework leveraging React, Maven, Docker, and GitLab CI/CD. Implemented continuous integration pipelines to optimize build time by 62% using GitLab CI. Resolved bug fixes and collaborated with the team in an Agile environment using Jira and SDLC",
+    "logo": "/logo/lm-logo.jpeg"
+  },
+  {
+    "id": 3,
+    "timeline": "Spring + Summer 2022",
+    "title": "Software Developer Co-op",
+    "company": "Saint-Gobain",
+    "team": "Performance Plastics, Industry 4.0",
+    "description": "Owned the end-to-end development of an Employee Portal for 150+ engineers and supervisors using Django, React and MSSQL. Implemented 5 fully integrated microservices and dashboards for on/offboarding using React and Django. Built a customizable form builder to enable digital transformation missions using React components. Optimized React codebase resulting in a 58% reduction in load time for dynamic web pages",
+    "logo": "/logo/saint-gobain-logo.jpg"
+  },
+  {
+    "id": 2,
+    "timeline": "Fall 2021",
+    "title": "Web Developer Intern",
+    "company": "Modi Clear & Associates LLC",
+    "team": "",
+    "description": "Developed front-end engagements using React with a focus on outcome-based modeling and tracking KPIs. Collaborated in a team to research and evaluate AWS, Firebase, and MySQL for optimal database solutions",
+    "logo": "/logo/modi-clear-logo.png"
+  },
+  {
+    "id": 1,
+    "timeline": "Summer 2021",
+    "title": "Web Developer Intern",
+    "company": "AS Software",
+    "team": "",
+    "description": "Developed and implemented 15+ web pages using HTML, CSS, JavaScript, Bootstrap, and Adobe Photoshop. Communicated with business owner to identify objectives and incorporate feedback, resulting in effective designs",
+    "logo": "/logo/as-software-logo.jpeg"
+  }
+]
