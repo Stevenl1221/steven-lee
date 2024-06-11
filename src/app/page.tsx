@@ -6,7 +6,6 @@ import anime from "animejs";
 
 export default function Home() {
   useEffect(() => {
-    // Wrap every letter in a span
     const textWrapper = document.querySelector(".ml10 .letters");
     if (textWrapper) {
       textWrapper.innerHTML = textWrapper.textContent!.replace(
@@ -21,11 +20,10 @@ export default function Home() {
         delay: (el, i) => 45 * i,
       });
     }
-  }, []); // Empty dependency array means this effect runs only once after the initial render
-
+  }, []);
   return (
     <main className="flex flex-col items-center justify-between p-24">
-      <div className="ml10 mb-4 flex align-baseline">
+      <div className="ml10 mb-4 flex align-baseline whitespace-nowrap">
         <p className="">I&#39;m Steven Lee, a&nbsp;</p>
         <span className="text-wrapper">
           <span className="letters font-bold">Full Stack Engineer.</span>
