@@ -15,13 +15,12 @@ const ExperienceCard: React.FC<{ experience: Experience }> = ({
   experience,
 }) => {
   return (
-    <div className="hover:bg-[#121b39] transition ease-in-out delay-50 p-6 rounded-lg">
+    <div>
       <div className="mb-4">
         <p className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-500 sm:col-span-2">
           {experience.timeline}
         </p>
         <h3 className="text-lg font-bold flex items-center">
-          {" "}
           {experience.title} • {experience.company}{" "}
           <Image
             src={experience.logo}

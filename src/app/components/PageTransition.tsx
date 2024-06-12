@@ -10,7 +10,8 @@ const PageTransition = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     setIsMounted(true);
   }, [pathname]);
-
+  {
+  }
   return (
     <AnimatePresence mode="wait">
       {isMounted && (

@@ -4,7 +4,9 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import { Navbar } from "./components/nav";
-import PageTransition from "./components/PageTransition"; // Import the PageTransition component
+import PageTransition from "./components/PageTransition";
+import React from "react";
+import GradientLayout from "./components/GradientLayout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,8 +32,10 @@ export default function Layout({
       )}
     >
       <body className={inter.className}>
-        <Navbar />
-        <PageTransition>{children}</PageTransition>{" "}
+        <GradientLayout className={"min-w-screen min-h-screen"}>
+          <Navbar />
+          <PageTransition>{children}</PageTransition>
+        </GradientLayout>
       </body>
     </html>
   );
