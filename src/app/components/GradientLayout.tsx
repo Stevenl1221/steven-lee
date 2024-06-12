@@ -30,7 +30,7 @@ const GradientLayout: React.FC<GradientLayoutProps> = ({
       style={{
         background: `radial-gradient( circle at ${GradientPosition().x}px ${
           GradientPosition().y
-        }px, rgba(29, 78, 216, 0.15), transparent 80% )`,
+        }px, rgba(29, 78, 216, 0.15), transparent 40% )`,
       }}
       className={className}
     >

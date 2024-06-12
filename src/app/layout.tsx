@@ -7,6 +7,7 @@ import { Navbar } from "./components/nav";
 import PageTransition from "./components/PageTransition";
 import React from "react";
 import GradientLayout from "./components/GradientLayout";
+import { AnimatePresence } from "framer-motion";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +27,7 @@ export default function Layout({
     <html
       lang="en"
       className={cx(
-        "bg-zinc-950 text-slate-100",
+        "bg-zinc-950 text-slate-300",
         GeistSans.variable,
         GeistMono.variable
       )}
@@ -34,7 +35,7 @@ export default function Layout({
       <body className={inter.className}>
         <GradientLayout className={"min-w-screen min-h-screen"}>
           <Navbar />
-          <PageTransition>{children}</PageTransition>
+          {children}
         </GradientLayout>
       </body>
     </html>
