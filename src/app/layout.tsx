@@ -5,6 +5,7 @@ import { Navbar } from "./components/nav";
 import PageTransition from "./components/PageTransition";
 import React from "react";
 import GradientLayout from "./components/GradientLayout";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Steven Lee's Site",
@@ -20,10 +21,10 @@ export default function Layout({
 }>) {
   return (
     <html lang="en" className={cx("bg-zinc-950 text-slate-300")}>
-      <script
+      <Script
         src="https://kit.fontawesome.com/2a0d9b603a.js"
         crossOrigin="anonymous"
-      ></script>
+      ></Script>
       <body className={`${GeistSans.className} `}>
         <GradientLayout className={"flex flex-col min-w-screen min-h-screen"}>
           <Navbar />
