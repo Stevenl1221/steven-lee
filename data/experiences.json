@@ -7,7 +7,9 @@
     "team": "Jupiter",
     "description": "Incoming intern doing vulnerability testing and robustness testing on the Jupiter Program",
     "logo": "/logo/lm-logo.jpeg",
-    "link": "https://www.lockheedmartin.com/en-us/capabilities/space.html"
+    "link": "https://www.lockheedmartin.com/en-us/capabilities/space.html",
+    "industry": "Aerospace & Defense",
+    "technologies": []
   },
   {
     "id": 4,
@@ -17,7 +19,9 @@
     "team": "Global Broadcasting Service (GBS)",
     "description": "Developed and deployed Satellite Broadcast Manager (SBM), Receive Broadcast Manager (RBM), and Global Broadcast Service framework leveraging React, Maven, Docker, and GitLab CI/CD. Implemented continuous integration pipelines to optimize build time by 62% using GitLab CI. Resolved bug fixes and collaborated with the team in an Agile environment using Jira and SDLC",
     "logo": "/logo/lm-logo.jpeg",
-    "link": "https://www.lockheedmartin.com/en-us/capabilities/space.html"
+    "link": "https://www.lockheedmartin.com/en-us/capabilities/space.html",
+    "industry": "Aerospace & Defense",
+    "technologies": ["Node.js", "GitLab CI/CD", "Jenkins", "React", "Maven", "Docker"]
   },
   {
     "id": 3,
@@ -27,7 +31,9 @@
     "team": "Performance Plastics, Industry 4.0",
     "description": "Owned the end-to-end development of an Employee Portal for 150+ engineers and supervisors using Django, React and MSSQL. Implemented 5 fully integrated microservices and dashboards for on/offboarding using React and Django. Built a customizable form builder to enable digital transformation missions using React components. Optimized React codebase resulting in a 58% reduction in load time for dynamic web pages",
     "logo": "/logo/saint-gobain-logo.jpg",
-    "link": "https://sgr-northamerica.saint-gobain.com/content/performance-plastics"
+    "link": "https://sgr-northamerica.saint-gobain.com/content/performance-plastics",
+    "industry": "Manufacturing",
+    "technologies": ["React", "Django", "MSSQL", "MUI", "Microsoft Azure", "RabbitMQ", "Celery", "Figma", "JavaScript", "HTML & CSS", "Python"]
   },
   {
     "id": 2,
@@ -37,7 +43,9 @@
     "team": "",
     "description": "Developed front-end engagements using React with a focus on outcome-based modeling and tracking KPIs. Collaborated in a team to research and evaluate AWS, Firebase, and MySQL for optimal database solutions",
     "logo": "/logo/modi-clear-logo.jpg",
-    "link": "http://www.modiclear.com/"
+    "link": "http://www.modiclear.com/",
+    "industry": "Tech Consulting",
+    "technologies": ["React", "AWS EC2", "Firebase", "MySQL", "JavaScript", "HTML & CSS"]
   },
   {
     "id": 1,
@@ -47,6 +55,8 @@
     "team": "",
     "description": "Developed and implemented 15+ web pages using HTML, CSS, JavaScript, Bootstrap, and Adobe Photoshop. Communicated with business owner to identify objectives and incorporate feedback, resulting in effective designs",
     "logo": "/logo/as-software-logo.jpeg",
-    "link": "https://www.as-software.com/"
+    "link": "https://www.as-software.com/",
+    "industry": "Healthcare Technology",
+    "technologies": ["HTML & CSS", "JavaScript", "Bootstrap", "Adobe Photoshop"]
   }
 ]
