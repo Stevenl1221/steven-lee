@@ -20,6 +20,10 @@ export default function Layout({
 }>) {
   return (
     <html lang="en" className={cx("bg-zinc-950 text-slate-300")}>
+      <script
+        src="https://kit.fontawesome.com/2a0d9b603a.js"
+        crossOrigin="anonymous"
+      ></script>
       <body className={`${GeistSans.className} `}>
         <GradientLayout className={"flex flex-col min-w-screen min-h-screen"}>
           <Navbar />

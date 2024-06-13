@@ -32,7 +32,7 @@ const ExperienceCard: React.FC<{ experience: Experience }> = ({
       scale: 1.2,
       translateY: -7,
       translateX: 2,
-      transition: { type: "easeInOutQuad", stiffness: 300 },
+      transition: { type: "easeInOutQuad" },
     },
   };
   return (

@@ -1,0 +1,130 @@
+[
+  {
+    "image": "/projects/progpair.png",
+    "title": "ProgPair",
+    "detail": "A platform that streamlines the process of open-source contributions, effectively lowering barriers to entry in tech and ensuring accessibility for individuals across various roles",
+    "technologies": [
+      "Next.js",
+      "Redis",
+      "PostgreSQL",
+      "Supabase",
+      "TailwindCSS",
+      "shadcn/ui",
+      "Figma",
+      "HTML & CSS",
+      "TypeScript"
+    ],
+    "repoLink": "https://github.com/Stevenl1221/SeniorD",
+    "demoLink": ""
+  },
+  {
+    "image": "/projects/gamify.png",
+    "title": "Gamify",
+    "detail": "CS554 group project, a marketplace for gamers to discover, buy, and sell games. Users can real-time message between buyers and sellers to discuss and bargain products.",
+    "technologies": [
+      "React",
+      "Redis",
+      "Redux",
+      "Socket.io",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "rawg.io API",
+      "TailwindCSS",
+      "HTML & CSS",
+      "JavaScript"
+    ],
+    "repoLink": "https://github.com/OmArE010/CS554Project",
+    "demoLink": ""
+  },
+  {
+    "image": "/projects/marvel.png",
+    "title": "Marvel Character Collection",
+    "detail": "CS554 Lab, a website to collect and display Marvel characters. Users can search for their favorite Marvel characters and view their details. Users can also add and remove characters from their collection.",
+    "technologies": [
+      "React",
+      "GraphQL",
+      "Redis",
+      "Redux",
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "Marvel API",
+      "Material UI",
+      "HTML & CSS",
+      "JavaScript"
+    ],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "image": "/projects/workout.png",
+    "title": "Workout Web App",
+    "detail": "CS546 group project, a social workout web app that allows users to create, share, like, and comment on each others' workout templates and profiles. Users can search or sort by popularity and muscle group.",
+    "technologies": [
+      "MongoDB",
+      "Express.js",
+      "Node.js",
+      "jQuery",
+      "Handlebars"
+    ],
+    "repoLink": "https://github.com/Stevenl1221/WorkoutApplication",
+    "demoLink": ""
+  },
+  {
+    "image": "/projects/vanguard.png",
+    "title": "Stevens Vanguard",
+    "detail": "CS545 group project, a website for Stevens Institute of Technology students to review and report violations of the Stevens Honor System. Streamlines the reporting process and view updates on your ticket status. ",
+    "technologies": ["MongoDB", "Express.js", "Node.js", "Handlebars"],
+    "repoLink": "https://github.com/Stevenl1221/Stevens-Vanguard",
+    "demoLink": ""
+  },
+  {
+    "image": "/projects/language.png",
+    "title": "Language Learning Chrome Extension",
+    "detail": "A google chrome extension that helps users learn a new language by translating random words on a webpage to the language they are learning.",
+    "technologies": ["HTML & CSS", "JavaScript", "Google Translate API"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "image": "/projects/petal.png",
+    "title": "Petal and Aura",
+    "detail": "A website for a bouquet shop that sells flowers based on the occasion. Users can add and remove bouquets to a wishlist and review the shop. ",
+    "technologies": ["PHP", "HTML & CSS", "JavaScript"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "image": "/projects/assoftware.png",
+    "title": "AS Software",
+    "detail": "A website to display products and testimonials of a leading provider of ultrasound reporting and image management. Customers can contact and find a partner at AS Software",
+    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    "repoLink": "https://github.com/Stevenl1221/assoftwarre",
+    "demoLink": "https://stevenl1221.github.io/assoftwarre/index.html"
+  },
+  {
+    "image": "/projects/vehicle.png",
+    "title": "Vehicle Safety Features Demo",
+    "detail": "CS 347 project, a program to model a testing environment for AI self-driving vehicles with safety features. Users can test the vehicle's performance in various scenarios.",
+    "technologies": ["Flutter", "GetX", "OpenWeatherAPI"],
+    "repoLink": "",
+    "demoLink": ""
+  },
+  {
+    "image": "/projects/etch.png",
+    "title": "Etch-A-Sketch",
+    "detail": "A browser version of something between a sketchpad and an Etch-A-Sketch. Users can draw on the screen with their mouse and clear the screen.",
+    "technologies": ["HTML & CSS", "JavaScript"],
+    "repoLink": "https://github.com/Stevenl1221/etchasketch",
+    "demoLink": ""
+  },
+  {
+    "image": "/projects/weatherapp.png",
+    "title": "Weather App",
+    "detail": "A mobile app for IOS and Android development that display weather data including forecasts and nowcasts. Unique icons for each type of weather.",
+    "technologies": ["Flutter", "GetX", "OpenWeatherAPI"],
+    "repoLink": "https://github.com/Stevenl1221/WeatherApp",
+    "demoLink": ""
+  }
+]
