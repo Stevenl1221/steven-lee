@@ -21,7 +21,7 @@ export default function Layout({
   return (
     <html lang="en" className={cx("bg-zinc-950 text-slate-300")}>
       <body className={`${GeistSans.className} `}>
-        <GradientLayout className={"min-w-screen min-h-screen"}>
+        <GradientLayout className={"flex flex-col min-w-screen min-h-screen"}>
           <Navbar />
           {children}
         </GradientLayout>

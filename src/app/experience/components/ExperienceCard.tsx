@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -19,6 +19,8 @@ interface Experience {
 const ExperienceCard: React.FC<{ experience: Experience }> = ({
   experience,
 }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
   const linkIconVariants = {
     initial: {
       scale: 1,
@@ -28,8 +30,8 @@ const ExperienceCard: React.FC<{ experience: Experience }> = ({
     },
     hover: {
       scale: 1.2,
-      translateY: -10,
-      translateX: 5,
+      translateY: -7,
+      translateX: 2,
       transition: { type: "easeInOutQuad", stiffness: 300 },
     },
   };
@@ -42,8 +44,10 @@ const ExperienceCard: React.FC<{ experience: Experience }> = ({
         <div className="flex items-center space-x-2">
           <a
             href={experience.link}
-            className="text-lg font-bold flex items-center group-hover/link:text-sky-300"
+            className="text-lg font-bold flex items-center group-hover/link:text-sky-400"
             target="_blank"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
           >
             {experience.title} • {experience.company}
             <motion.svg
@@ -53,7 +57,7 @@ const ExperienceCard: React.FC<{ experience: Experience }> = ({
               className="inline-block h-4 w-4 shrink-0 ml-1"
               variants={linkIconVariants}
               initial="initial"
-              whileHover="hover"
+              animate={isHovered ? "hover" : "initial"}
               aria-hidden="true"
             >
               <path
