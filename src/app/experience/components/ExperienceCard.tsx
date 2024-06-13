@@ -68,7 +68,7 @@ const ExperienceCard: React.FC<{ experience: Experience }> = ({
             alt="logo"
             width={32}
             height={32}
-            className="bg-white object-contain rounded-full"
+            className="bg-white object-contain rounded-full h-[32px] w-[32px]"
           />
         </div>
         {experience.team ? (
