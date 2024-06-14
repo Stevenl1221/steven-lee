@@ -19,7 +19,6 @@ const ProjectCard: React.FC<{ project: Project; index: number }> = (
   index
 ) => {
   const [isHovered, setIsHovered] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
 
   const projectVariants = {
     initial: {

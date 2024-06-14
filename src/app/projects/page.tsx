@@ -9,7 +9,7 @@ import ProjectCard from "./components/ProjectCard";
 
 export default function Page() {
   return (
-    <div className="group grid grid-cols-1 md:grid-cols-3 gap-6 pb-12 px-24">
+    <div className="group grid grid-cols-1 md:grid-cols-3 gap-6 pb-12 px-4 md:px-24">
       {projects.map((project, index) => (
         <ProjectCard key={index} project={project} index={index} />
       ))}
