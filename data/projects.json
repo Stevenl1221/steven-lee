@@ -18,6 +18,23 @@
     "demoLink": ""
   },
   {
+    "image": "/projects/microsoft.png",
+    "title": "Microsoft OpenHack: Modern Data Warehousing",
+    "detail": "Designed, implemented, and operationalized a multi-source data warehouse solution from a mess of 40+ disparate sources into a single location. Deployed and transformed 2,000,000+ rows of customer data to generate reports mandated by business owner.",
+    "technologies": [
+      "Microsoft Azure",
+      "Python",
+      "SQL",
+      "Azure Data Lake Storage",
+      "Azure Data Factory",
+      "Azure Databricks",
+      "Azure DevOps",
+      "Azure Synapse Analytics"
+    ],
+    "repoLink": "",
+    "demoLink": "http://rb.gy/63y8i"
+  },
+  {
     "image": "/projects/gamify.png",
     "title": "Gamify",
     "detail": "CS554 group project, a marketplace for gamers to discover, buy, and sell games. Users can real-time message between buyers and sellers to discuss and bargain products.",
