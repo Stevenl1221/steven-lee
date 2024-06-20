@@ -13,7 +13,9 @@ const GradientLayout: React.FC<GradientLayoutProps> = ({
   const { x, y } = useMousePosition();
 
   return (
-    <div className={className}>
+    <div
+      className={`${className}`}
+    >
       {children}
       <style jsx>{`
         @media (min-width: 768px) {

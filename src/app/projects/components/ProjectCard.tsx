@@ -28,11 +28,11 @@ const ProjectCard: React.FC<{ project: Project; index: number }> = (
     visible: {
       opacity: 1,
       scale: 1,
-      transition: { type: "spring", stiffness: 100 },
+      transition: { type: "spring"},
     },
     hover: {
       scale: 1.05,
-      transition: { type: "spring", stiffness: 300 },
+      transition: { type: "spring", stiffness: "200" },
     },
   };
 

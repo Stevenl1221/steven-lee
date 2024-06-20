@@ -25,7 +25,7 @@ export function Navbar() {
   );
 
   return (
-    <aside className="-ml-[8px] tracking-tight flex flex-col items-center justify-between p-24 md:p-24">
+    <aside className="-ml-[8px] tracking-tight flex flex-col items-center justify-between p-24 md:p-24 z-10">
       <div className="sticky top-20">
         <nav
           className="flex flex-row items-start relative px-0 pb-0 fade"
