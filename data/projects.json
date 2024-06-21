@@ -5,6 +5,7 @@
     "detail": "A platform that streamlines the process of open-source contributions, effectively lowering barriers to entry in tech and ensuring accessibility for individuals across various roles",
     "technologies": [
       "Next.js",
+      "React",
       "Redis",
       "PostgreSQL",
       "Supabase",

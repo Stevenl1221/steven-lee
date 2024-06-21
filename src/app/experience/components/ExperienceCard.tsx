@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-interface Experience {
+export interface Experience {
   id: number;
   timeline: string;
   title: string;

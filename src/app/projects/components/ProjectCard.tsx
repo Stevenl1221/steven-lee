@@ -28,7 +28,7 @@ const ProjectCard: React.FC<{ project: Project; index: number }> = (
     visible: {
       opacity: 1,
       scale: 1,
-      transition: { type: "spring"},
+      transition: { type: "spring" },
     },
     hover: {
       scale: 1.05,
@@ -59,9 +59,9 @@ const ProjectCard: React.FC<{ project: Project; index: number }> = (
         <Image
           src={project.image}
           alt={project.title}
-          layout="fill"
-          objectFit="cover"
-          className="rounded-lg"
+          fill
+          className="rounded-lg object-cover"
+          sizes="(max-width: 1250px) 100vw, 760px"
         />
       </div>
 

@@ -11,7 +11,7 @@ export const WavyBackground = ({
   waveWidth,
   backgroundFill,
   blur = 10,
-  speed = "slow",
+  speed = "fast",
   waveOpacity = 0.5,
   ...props
 }: {
@@ -85,7 +85,7 @@ export const WavyBackground = ({
 
   let animationId: number;
   const render = () => {
-    ctx.fillStyle = backgroundFill || "transparent";
+    ctx.fillStyle = backgroundFill || "black";
     ctx.globalAlpha = waveOpacity || 0.5;
     ctx.fillRect(0, 0, w, h);
     drawWave(5);
@@ -101,6 +101,7 @@ export const WavyBackground = ({
 
   const [isSafari, setIsSafari] = useState(false);
   useEffect(() => {
+    // I'm sorry but i have got to support it on safari.
     setIsSafari(
       typeof window !== "undefined" &&
         navigator.userAgent.includes("Safari") &&
@@ -109,16 +110,21 @@ export const WavyBackground = ({
   }, []);
 
   return (
-    <div className={cn("flex flex-col flex-grow", containerClassName)}>
+    <div
+      className={cn(
+        "flex flex-col flex-grow items-center justify-center",
+        containerClassName
+      )}
+    >
       <canvas
-        className="absolute inset-0 z-0"
+        className="absolute inset-0 z-0 opacity-50"
         ref={canvasRef}
         id="canvas"
         style={{
           ...(isSafari ? { filter: `blur(${blur}px)` } : {}),
         }}
       ></canvas>
-      <div className={cn("relative z-40", className)} {...props}>
+      <div className={cn("relative z-10", className)} {...props}>
         {children}
       </div>
     </div>

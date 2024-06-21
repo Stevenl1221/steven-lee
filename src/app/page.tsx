@@ -13,7 +13,7 @@ type LetterProps = {
 
 const Letter: React.FC<LetterProps> = ({ children, i }) => {
   return (
-    <span className={`letter ${3 < i && i < 12 ? "text-teal-400" : ""}`}>
+    <span className={`letter ${3 < i && i < 12 ? "text-sky-400" : ""}`}>
       {children === " " ? " " : children}
     </span>
   );
@@ -52,8 +52,12 @@ const Home: React.FC = () => {
   };
 
   return (
-    <WavyBackground waveWidth={5} className="flex flex-col items-center justify-between p-24 pb-8 flex-grow text-slate-100">
-      <div className="flex align-baseline whitespace-nowrap text-xl lg:text-5xl font-bold">
+    <WavyBackground
+      waveWidth={50}
+      backgroundFill="bg-zinc-950"
+      className="flex flex-col items-center justify-between p-24 pb-8 flex-grow text-slate-100"
+    >
+      <div className="flex align-baseline whitespace-nowrap text-lg lg:text-5xl font-bold">
         <p>I&#39;m Steven Lee</p>
         <span className="text-wrapper">
           <span className="font-bold flex flex-row" ref={ref}>
