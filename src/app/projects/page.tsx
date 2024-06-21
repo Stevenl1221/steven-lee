@@ -1,7 +1,6 @@
 "use client";
 import projects from "../../../data/projects.json";
 import ProjectCard from "./components/ProjectCard";
-import Skills from "./components/Skills";
 import { useEffect, useState } from "react";
 import Project from "./components/ProjectCard";
 
