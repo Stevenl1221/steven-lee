@@ -21,24 +21,15 @@
   {
     "image": "/projects/microsoft.png",
     "title": "Microsoft OpenHack: Modern Data Warehousing",
-    "detail": "Designed, implemented, and operationalized a multi-source data warehouse solution from a mess of 40+ disparate sources into a single location. Deployed and transformed 2,000,000+ rows of customer data to generate reports mandated by business owner.",
-    "technologies": [
-      "Microsoft Azure",
-      "Python",
-      "SQL",
-      "Azure Data Lake Storage",
-      "Azure Data Factory",
-      "Azure Databricks",
-      "Azure DevOps",
-      "Azure Synapse Analytics"
-    ],
+    "detail": "Designed, implemented, and operationalized a multi-source data warehouse solution from a mess of 40+ disparate sources into a single location. Deployed and transformed 2,000,000+ rows of customer data to generate reports mandated by business owner. Microsoft Azure services used: Azure Data Lake Storage, Azure Data Factory, Azure Databricks, Azure Synapse Analytics, Azure DevOps.",
+    "technologies": ["Microsoft Azure", "Python", "SQL"],
     "repoLink": "",
     "demoLink": "http://rb.gy/63y8i"
   },
   {
     "image": "/projects/gamify.png",
     "title": "Gamify",
-    "detail": "CS554 group project, a marketplace for gamers to discover, buy, and sell games. Users can real-time message between buyers and sellers to discuss and bargain products.",
+    "detail": "CS554 group project, a marketplace for gamers to discover, buy, and sell games. Users can real-time message between buyers and sellers to discuss and bargain products. Game data is fetched from the RAWG API.",
     "technologies": [
       "React",
       "Redis",
@@ -47,7 +38,6 @@
       "MongoDB",
       "Express.js",
       "Node.js",
-      "rawg.io API",
       "TailwindCSS",
       "HTML & CSS",
       "JavaScript"
@@ -58,7 +48,7 @@
   {
     "image": "/projects/marvel.png",
     "title": "Marvel Character Collection",
-    "detail": "CS554 Lab, a website to collect and display Marvel characters. Users can search for their favorite Marvel characters and view their details. Users can also add and remove characters from their collection.",
+    "detail": "CS554 Lab, a website to collect and display Marvel characters. Users can search for their favorite Marvel characters and view their details. Users can also add and remove characters from their collection. Marvel Character data is fetched from the Marvel API.",
     "technologies": [
       "React",
       "GraphQL",
@@ -67,7 +57,6 @@
       "MongoDB",
       "Express.js",
       "Node.js",
-      "Marvel API",
       "Material UI",
       "HTML & CSS",
       "JavaScript"
@@ -100,8 +89,8 @@
   {
     "image": "/projects/language.png",
     "title": "Language Learning Chrome Extension",
-    "detail": "A google chrome extension that helps users learn a new language by translating random words on a webpage to the language they are learning.",
-    "technologies": ["HTML & CSS", "JavaScript", "Google Translate API"],
+    "detail": "A google chrome extension that helps users learn a new language by translating random words on a webpage to the language they are learning. Translations are fetched from the Google Translate API.",
+    "technologies": ["HTML & CSS", "JavaScript"],
     "repoLink": "",
     "demoLink": ""
   },
@@ -117,7 +106,7 @@
     "image": "/projects/assoftware.png",
     "title": "AS Software",
     "detail": "A website to display products and testimonials of a leading provider of ultrasound reporting and image management. Customers can contact and find a partner at AS Software",
-    "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    "technologies": ["HTML & CSS", "JavaScript", "Bootstrap"],
     "repoLink": "https://github.com/Stevenl1221/assoftwarre",
     "demoLink": "https://stevenl1221.github.io/assoftwarre/index.html"
   },
@@ -125,7 +114,7 @@
     "image": "/projects/vehicle.png",
     "title": "Vehicle Safety Features Demo",
     "detail": "CS 347 project, a program to model a testing environment for AI self-driving vehicles with safety features. Users can test the vehicle's performance in various scenarios.",
-    "technologies": ["Flutter", "GetX", "OpenWeatherAPI"],
+    "technologies": ["Python", "Pygame"],
     "repoLink": "",
     "demoLink": ""
   },
@@ -140,8 +129,8 @@
   {
     "image": "/projects/weatherapp.png",
     "title": "Weather App",
-    "detail": "A mobile app for IOS and Android development that display weather data including forecasts and nowcasts. Unique icons for each type of weather.",
-    "technologies": ["Flutter", "GetX", "OpenWeatherAPI"],
+    "detail": "A mobile app for IOS and Android development that display weather data including forecasts and nowcasts using the OpenWeather API.",
+    "technologies": ["Flutter", "GetX"],
     "repoLink": "https://github.com/Stevenl1221/WeatherApp",
     "demoLink": ""
   }

@@ -14,10 +14,11 @@ interface Project {
   demoLink: string;
 }
 
-const ProjectCard: React.FC<{ project: Project; index: number }> = (
-  { project },
-  index
-) => {
+const ProjectCard: React.FC<{
+  project: Project;
+  index: React.Key;
+  filteredSkills: string[];
+}> = ({ project, index, filteredSkills }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const projectVariants = {
@@ -101,7 +102,12 @@ const ProjectCard: React.FC<{ project: Project; index: number }> = (
         {project.technologies.map((tech) => (
           <span
             key={tech}
-            className="px-3 py-1 text-xs font-semibold text-sky-300 bg-sky-400/10 rounded-full"
+            // className="px-3 py-1 text-xs text-sky-300 bg-sky-400/10 rounded-full"
+            className={`${
+              filteredSkills.includes(tech)
+                ? "text-sky-300 bg-sky-400/10 font-semibold"
+                : "border-slate-300/10 border"
+            } px-3 py-1 text-xs rounded-full`}
           >
             {tech}
           </span>
