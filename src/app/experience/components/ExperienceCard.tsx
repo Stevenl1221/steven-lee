@@ -20,7 +20,21 @@ const ExperienceCard: React.FC<{ experience: Experience }> = ({
   experience,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
-
+  const experienceVariants = {
+    initial: {
+      opacity: 0,
+      scale: 0.9,
+    },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: { type: "spring" },
+    },
+    hover: {
+      scale: 1.05,
+      transition: { type: "spring", stiffness: "200" },
+    },
+  };
   const linkIconVariants = {
     initial: {
       scale: 1,
@@ -35,8 +49,15 @@ const ExperienceCard: React.FC<{ experience: Experience }> = ({
       transition: { type: "easeInOutQuad" },
     },
   };
+
   return (
-    <li className="group/link p-6 rounded-md transition-all md:hover:bg-slate-900 md::drop-shadow-lg md:hover:!opacity-100 md:group-hover:opacity-50">
+    <motion.li
+      key={experience.id}
+      variants={experienceVariants}
+      initial="initial"
+      animate="visible"
+      className="group/link p-6 rounded-md transition-colors md:hover:bg-slate-900 md::drop-shadow-lg md:hover:!opacity-100 md:group-hover:opacity-50"
+    >
       <div className="mb-4">
         <p className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-500">
           {experience.timeline}
@@ -92,7 +113,7 @@ const ExperienceCard: React.FC<{ experience: Experience }> = ({
           </span>
         ))}
       </div>
-    </li>
+    </motion.li>
   );
 };
 

@@ -102,7 +102,6 @@ const ProjectCard: React.FC<{
         {project.technologies.map((tech) => (
           <span
             key={tech}
-            // className="px-3 py-1 text-xs text-sky-300 bg-sky-400/10 rounded-full"
             className={`${
               filteredSkills.includes(tech)
                 ? "text-sky-300 bg-sky-400/10 font-semibold"
