@@ -121,6 +121,7 @@ const ProjectCard: React.FC<{
             variants={linkIconVariants}
             initial="initial"
             whileHover="hover"
+            aria-label="GitHub"
           >
             <FontAwesomeIcon icon={faGithub} className="text-4xl" />
           </motion.a>
@@ -133,6 +134,7 @@ const ProjectCard: React.FC<{
             variants={linkIconVariants}
             initial="initial"
             whileHover="hover"
+            aria-label="Demo"
           >
             <i className="fa-solid fa-paperclip text-2xl"></i>
           </motion.a>

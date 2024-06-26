@@ -59,7 +59,7 @@ const ExperienceCard: React.FC<{ experience: Experience }> = ({
       className="group/link p-6 rounded-md transition-colors md:hover:bg-slate-900 md::drop-shadow-lg md:hover:!opacity-100 md:group-hover:opacity-50"
     >
       <div className="mb-4">
-        <p className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-500">
+        <p className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-gray-400">
           {experience.timeline}
         </p>
         <div className="flex items-center space-x-2">

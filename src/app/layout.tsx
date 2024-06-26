@@ -34,7 +34,9 @@ export default function Layout({
         crossOrigin="anonymous"
       ></Script>
       <body className={`${GeistSans.className} `}>
-        <GradientLayout className={"flex flex-col min-w-screen min-h-screen"}>
+        <GradientLayout
+          className={"flex flex-col min-w-screen min-h-screen max-h-full"}
+        >
           <Navbar />
           {children}
         </GradientLayout>

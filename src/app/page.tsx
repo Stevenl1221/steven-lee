@@ -74,6 +74,7 @@ const Home: React.FC = () => {
             variants={linkIconVariants}
             initial="initial"
             whileHover="hover"
+            aria-label="GitHub"
           >
             <FontAwesomeIcon icon={faGithub} className="text-4xl" />
           </motion.a>
@@ -84,11 +85,12 @@ const Home: React.FC = () => {
             variants={linkIconVariants}
             initial="initial"
             whileHover="hover"
+            aria-label="LinkedIn"
           >
             <FontAwesomeIcon icon={faLinkedin} className="text-4xl " />
           </motion.a>
         </div>
-        <p className="text-slate-500 text-xs md:text-sm whitespace-nowrap">
+        <p className="text-[#727986] text-xs md:text-sm whitespace-nowrap">
           Built with <span className="font-medium text-slate-400">Next.js</span>{" "}
           and <span className="font-medium text-slate-400">Taildwind CSS</span>,
           deployed with{" "}

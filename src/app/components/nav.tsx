@@ -40,7 +40,7 @@ export function Navbar() {
                   key={path}
                   href={path}
                   className={`transition-all hover:text-neutral-200 flex align-middle relative py-1 px-1 md:px-2 m-1 font-bold no-underline ${
-                    isSelected ? "font-bold text-white" : "text-gray-500"
+                    isSelected ? "font-bold text-white" : "text-gray-400"
                   }`}
                   onClick={() => setSelectedLink(name)}
                 >
