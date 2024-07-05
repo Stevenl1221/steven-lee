@@ -65,7 +65,7 @@ const Home: React.FC = () => {
           </span>
         </span>
       </div>
-      <div className="flex space-y-8 justify-end flex-col pt-8">
+      <div className="flex space-y-8 flex-grow flex-col pt-8">
         <div className="space-x-8 flex justify-center">
           <motion.a
             href="https://github.com/Stevenl1221"
