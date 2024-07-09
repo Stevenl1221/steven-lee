@@ -29,7 +29,7 @@
     "title": "Software Developer Co-op",
     "company": "Saint-Gobain",
     "team": "Performance Plastics, Industry 4.0",
-    "description": "Owned the end-to-end development of an Employee Portal for 150+ engineers and supervisors using Django, React and MSSQL. Implemented 5 fully integrated microservices and dashboards for on/offboarding using React and Django. Built a customizable form builder to enable digital transformation missions using React components. Optimized React codebase resulting in a 58% reduction in load time for dynamic web pages",
+    "description": "Owned the end-to-end development of an Employee Portal for 150+ engineers and supervisors using Django, React and MSSQL. Implemented 5 fully integrated microservices and dashboards for on/offboarding using React and Django including uniform requests, vacation requests, inventory management, systems management, calendar integration, and notifications. Built a customizable form and template builder to enable digital transformation missions using React components to collect and perform data anaylsis. Optimized React codebase resulting in a 58% reduction in load time for dynamic web pages",
     "logo": "/logo/saint-gobain-logo.jpg",
     "link": "https://sgr-northamerica.saint-gobain.com/content/performance-plastics",
     "industry": "Manufacturing",
